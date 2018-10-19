@@ -1,16 +1,16 @@
 import java.util.*;
 
 
-public class Fibonacci {
+public class Fatorial {
 
-	public int fiborecursivo(int n){
+	public int fatorecursivo(int n){
 		if(n>1){
-			return n*fiborecursivo(n-1);
+			return n*fatorecursivo(n-1);
 		}
 		return 1;
 	}
 	
-	public int fibon(int n){
+	public int fatorial(int n){
 		int a = 1;
 		int b = 1;
 		
@@ -24,11 +24,12 @@ public class Fibonacci {
 	
 	
 	public static void main(String[] args) {
-		Fibonacci fib = new Fibonacci();
+		Fatorial fat = new Fatorial();
 		
-		System.out.println(fib.fiborecursivo(5));
+		System.out.println(fat.fatorecursivo(5));
 		System.out.println("-----------");
-		System.out.println(fib.fibon(5));
+		System.out.println(fat.fatorial(5));
 
 	}
 }
+
