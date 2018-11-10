@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class Fatorial {
 
 	public int fatorecursivo(int n){
